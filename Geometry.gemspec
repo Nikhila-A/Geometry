@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.metadata["allowed_push_host"] = "https://github.com/Nikhila-A/Geometry"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "Thttps://github.com/Nikhila-A/Geometry"
+  spec.metadata["source_code_uri"] = "https://github.com/Nikhila-A/Geometry"
   spec.metadata["changelog_uri"] = "https://github.com/Nikhila-A/Geometry"
 
   # Specify which files should be added to the gem when it is released.

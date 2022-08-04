@@ -1,15 +1,10 @@
 
 module Basicgeometry
-    
-    class Point
-        x=0
-        y=0
 
+    class Point
+       
         attr_reader :x 
         attr_reader :y
-        def initialize()
-        end
-
 
         def setattribute(x,y)
             if (x.is_a?(Integer) || x.is_a?(Float) and (y.is_a?(Integer) || y.is_a?(Float) ))
@@ -19,7 +14,10 @@ module Basicgeometry
             else 
                 return false
             end
+
         end
+
     end
+
 end
   

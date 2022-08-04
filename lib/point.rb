@@ -1,6 +1,7 @@
 
-module Point
-    class SinglePoint
+module Basicgeometry
+    
+    class Point
         x=0
         y=0
 

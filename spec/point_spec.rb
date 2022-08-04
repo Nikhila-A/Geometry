@@ -3,11 +3,11 @@ require_relative '../lib/point.rb'
 RSpec.describe Point do
 
   it "validates whether the point is an integer or float" do
-    new_point = Point::SinglePoint.new(1,0.0)
-    #expect(new_point.x).to be_kind_of(Numeric)
-    #expect(new_point.y).to be_kind_of(Numeric)
-    #expect(new_point.x).to be_kind_of(Float)
-    expect(new_point.y).to be_kind_of(Float)
+    new_point = Point::SinglePoint.new
+    expect(true).to eq(new_point.setattribute(1,0.0))
   end
-
+  it "validates whether the point is an integer or float" do
+    new_point = Point::SinglePoint.new
+    expect(false).to eq(new_point.setattribute('n','viswa'))
+  end
 end

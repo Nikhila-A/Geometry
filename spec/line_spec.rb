@@ -6,7 +6,9 @@ RSpec.describe Geometry do
     end
 
     it "calculates the length of the line" do
-        expect(Line::Cartesianlength.new(10,20,5,10).findLength()).to eql(11.18)
+        new_point1=point.new
+        new_point2=point.new
+        expect(Line::Cartesianlength.new(new_point1,new_point2).findLength()).to eql(11.18)
     end
     
     it "calculates the co-efficients of the line" do

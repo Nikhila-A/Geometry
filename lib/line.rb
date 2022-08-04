@@ -1,3 +1,4 @@
+require "point.rb"
 module Line
 
     class Cartesianlength
